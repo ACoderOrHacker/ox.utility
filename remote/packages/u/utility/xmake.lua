@@ -10,6 +10,6 @@ package("utility")
     end)
 
     on_test(function (package)
-        assert(package:has_cxxfuncs("ox::debugbreak", {includes = "ox/utility/debugbreak.hpp"})
+        assert(package:has_cxxfuncs("ox::debugbreak", {includes = "ox/utility/debugbreak.hpp"}))
         assert(package:has_cxxfuncs("ox::bytes_of<int>", {includes = "ox/utility/size.hpp"}))
     end)
