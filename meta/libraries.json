@@ -1,0 +1,10 @@
+{
+    "libraries": [
+        {
+            "name": "utility",
+            "description": "Utility Tools Library",
+            "version": "0.1.0",
+            "cpp_standard": "03"
+        }
+    ]
+}
