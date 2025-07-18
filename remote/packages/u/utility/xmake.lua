@@ -3,7 +3,7 @@ package("utility")
     set_description("Utility Tools Library")
 
     add_urls("https://github.com/ACoderOrHacker/ox.utility.git")
-    add_versions("0.1.0", "f3aec2a3de25e12665f2f36f8ae7da5e42ec342d")
+    add_versions("0.1.0", "de957eec04543911a091e8848efeb95ea22ea98f")
 
     on_install(function (package)
         import("package.tools.xmake").install(package, configs)
