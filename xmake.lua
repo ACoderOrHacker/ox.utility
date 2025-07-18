@@ -22,6 +22,10 @@ option("enable-tests")
         set_kind("binary")
 
         add_files("tests/test.cpp")
+
+        on_install(function (target)
+        
+        end)
     target_end()
 option_end()
 
