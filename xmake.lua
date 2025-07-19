@@ -1,6 +1,6 @@
 set_xmakever("2.2.2")
 set_project("utility")
-set_version("0.1.0")
+set_version("0.1.1")
 set_languages("c++03")
 
 includes("@builtin/xpack")
